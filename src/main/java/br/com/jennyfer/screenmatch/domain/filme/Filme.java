@@ -11,6 +11,11 @@ public class Filme {
     private Long  id;
     private String nome;
     private int duracaoEmMinutos;
+
+    public int getAnoLancamento() {
+        return anoLancamento;
+    }
+
     private int anoLancamento;
     private String genero;
 
@@ -51,10 +56,7 @@ public class Filme {
         return duracaoEmMinutos;
     }
 
-    public int getAnoLancmento() {
 
-        return anoLancamento;
-    }
 
     public String getGenero() {
 
